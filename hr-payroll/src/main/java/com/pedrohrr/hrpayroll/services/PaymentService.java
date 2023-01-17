@@ -23,11 +23,11 @@ public class PaymentService {
     private RestTemplate restTemplate;
 
     public Payment getPayment (Long workerId, int days){
-        Map<String,String> urlVariable = new HashMap<>();
-        urlVariable.put("id",""+workerId);
+        Map<String, String> uriVariables = new HashMap<>();
+        uriVariables.put("id", ""+workerId);
 
-        Worker worker = restTemplate.getForObject(workerHost + "/worker/{id}", Worker.class, urlVariable);
-        return new Payment(worker.getName(),worker.getDayleIncome(),days);
+        Worker worker = restTemplate.getForObject(workerHost + "/workers/{id}", Worker.class, uriVariables);
+        return new Payment(worker.getName(), worker.getdailyIncome(), days);
     }
 
 }
