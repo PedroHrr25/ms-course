@@ -1,7 +1,5 @@
 package com.pedrohrr.hrpayroll.entities;
 
-import org.springframework.web.bind.annotation.PathVariable;
-
 import java.io.Serializable;
 
 public class Payment implements Serializable {
