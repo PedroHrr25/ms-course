@@ -5,3 +5,5 @@ q
 Ahr-worker/src/main/java/com/pedrohrr/hrworker/entites/Worker.java,a\8\a851919e404aaeb281fb1ae5f1834c5e04efa4e5
 v
 Fhr-worker/src/main/java/com/pedrohrr/hrworker/HrWorkerApplication.java,b\2\b2dddaa6c507c65db06041b31388b66354ec5a05
+t
+Dhr-payroll/src/main/java/com/pedrohrr/hrpayroll/entities/Worker.java,e\f\eff95eb0b7243398fcb79370b76ad7d6514c74f2
